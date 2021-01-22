@@ -8,7 +8,7 @@ namespace CSharp_1_1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Module 1");
-            Console.WriteLine("Please select which task you want to run (1-8), to run all, simply press enter");
+            Console.WriteLine("Please input which task you want to run (1-8), to run all, simply press enter");
             string chosenTask = Console.ReadLine();
             if (chosenTask == "1")
             {
